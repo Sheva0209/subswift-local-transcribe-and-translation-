@@ -1,0 +1,17 @@
+node_modules/
+
+# Video files (large binary files)
+storage/uploads/*.mp4
+storage/uploads/*.mov
+storage/uploads/*.mkv
+storage/uploads/*.webm
+storage/clips/*.mp4
+
+# Transcript & subtitle files generated at runtime
+storage/transcripts/
+
+# Environment & secrets
+.env
+
+# DB data (optional: remove this line if you want to track db.json)
+storage/db.json
